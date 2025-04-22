@@ -148,7 +148,7 @@ Cf. http://www.shawcomputing.net/resources/next/software/bundled/bundled_1.html
 
 ### **HelpViewer**
 
-[x] Man pages: ok
+- [x] Man pages: ok
 
 See also _Lookup_
 
@@ -191,48 +191,48 @@ See also _Lookup_
 
 ### Games: Chess
 
-[x]  Playing VS computer: 3D view:ok
-[x] Save/Open a *.chess file: ok
-[ ] Opening Chess from the *.chess file: issue. There is an alert and the saved game is not restored.
+- [x]  Playing VS computer: 3D view:ok
+- [x] Save/Open a *.chess file: ok
+- [ ] Opening Chess from the *.chess file: issue. There is an alert and the saved game is not restored.
 
 ### Cynthiune: The Music Player
 
-[x] Test mp3: ok
-[x] Test ogg: ok
+- [x] Test mp3: ok
+- [x] Test ogg: ok
 
 ### Devel: Gemas Editor
 
-[x] Open...: ok
-[ ] Highlight: todo...
+- [x] Open...: ok
+- [ ] Highlight: todo...
 
 ### Draving: Graphos
 
-[x]  New draw: ok
-[x] Save/Open a *.gdr file: ok
-[x] Open Graphos from the *.gdr file: ok
+- [x]  New draw: ok
+- [x] Save/Open a *.gdr file: ok
+- [x] Open Graphos from the *.gdr file: ok
 
 ### Grr: Guenther' Noak RSS Reader
 
-[x] New category, suscribe, Fetch and Read: ok
+- [x] New category, suscribe, Fetch and Read: ok
 
 ### LUserNET
 
-[x] Running
-[ ] Connect a list/news server... at the French hierarchy.
-http://news.gegeweb.org/
+- [x] Running
+- [ ] Connect a list/news server... at the French hierarchy.
+Maybe: http://news.gegeweb.org/
 
 ### Games: NeXTGo is Go game
 
-[x] Functional
-[ ] What is the extension to save a game ?
+- [x] Functional
+- [ ] What is the extension to save a game ?
 
 ### PRICE: Image Manipulation Program
 
-[x] Filters, Transform, save as tiff, jpg: ok
+- [x] Filters, Transform, save as tiff, jpg: ok
 
 ### StepSync
 
-[x] Syncing two folders: ok
+- [x] Syncing two folders: ok
 
 
 ---
@@ -241,16 +241,16 @@ http://news.gegeweb.org/
 
 ## Other games
 
-- TODO: Go Game = Ladder
-- Gomoku
-- GShisen
-- LapisPuzzle
+- [ ] A more moderne Go Game board: Ladder
+- [ ] Gomoku
+- [ ] GShisen
+- [ ] LapisPuzzle
 
 
 ## More Apps
 
 - [ ] FlexiSheet
-
+- See also and adapt Roadmap at [apps-within-nextspace](https://github.com/pcardona34/apps-within-nextspace)...
 ## To see and add: Documents
 
 - [ ] [NEXSTSTEP, OPENSTEP documents](http://www.shawcomputing.net/resources/next/documents.html)

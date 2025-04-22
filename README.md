@@ -18,10 +18,14 @@ All apps already being there will be checked. Only new apps will be added.
 4) Get and install [GSDE from Onflapp repo](https://github.com/onflapp/gs-desktop).
   After You have installed WDM display manager, You need to set the runlevel as below:
 ````sudo systemctl set-default graphical.target && sudo reboot````
-6) Clone the present repo:
+6) Clone the present repo and cd inside:
 ````
 git clone https://github.com/pcardona34/apps-within-gsde.git
 cd apps-within-gsde
+````
+
+7) Run install script to do all the stuff
+````
 ./install.sh
 ````
 
