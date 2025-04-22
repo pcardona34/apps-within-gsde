@@ -11,7 +11,7 @@ All apps already being there will be checked. Only new apps will be added.
 
 ## Pre-requesite
 
-1) You shoud install a lite version of the Debian OS or the Debian RPI OS lite if You have like me a Raspberry Pi 400 model.
+1) You shoud install a lite version of the Debian OS or the Debian RPI OS lite if You have, like me, a Raspberry Pi 400 model.
 2) Set your localisation settings: timezone, language, keyboard layout... network connection.
 3) Create a SOURCES folder and go inside:
 ````mkdir SOURCES && cd SOURCES````
