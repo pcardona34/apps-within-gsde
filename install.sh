@@ -37,7 +37,7 @@ cd Applications || exit 1
 __PWD=`pwd`
 
 clear
-printf "Other GNUstep compliant apps with NEXTSPACE"
+printf "Other GNUstep compliant apps with GSDE"
 printf "\n===========================================\n"
 
 for _FOLDER in `ls`
@@ -55,30 +55,6 @@ do
 done
 
 cd ..
-
-cd Tools || exit 1
-__PWD=`pwd`
-
-clear
-printf "Other GNUstep Tools compliant with NEXTSPACE"
-printf "\n===========================================\n"
-
-for _FOLDER in `ls`
-do
-        if [ "$_FOLDER" != "README.md" ];then
-                printf "\nTool: ${_FOLDER}\n"
-                cd $_FOLDER
-                ./0_prep.sh
-                ./1_fetch.sh
-                ./2_build.sh
-                ./3_install.sh
-                printf "\n${_FOLDER}: done.\n\n"
-                cd "$__PWD"
-        fi
-done
-
-cd ../..
-
 
 if [ "$MODE_TEST" == "YES" ];then
 	printf "\nWe do not clean archives downloaded.\n"
