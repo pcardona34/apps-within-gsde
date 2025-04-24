@@ -56,7 +56,7 @@ Work in progress...
 
 ### **DocViewer**
 
-- [x] PDF: ok; 
+- [x] PDF: it is obviously lacking of a zoom capacity, and anti-aliasing. Will be replaced by GSPdf. 
 - [ ] HTML, MD files: issue = bad encoding: todo = create issue.
 
 ### **EdenMath**
@@ -84,8 +84,8 @@ Work in progress...
 
 ### Librarian
 
-- Howto ? Need more investigation.
-Cf. http://www.shawcomputing.net/resources/next/software/bundled/bundled_1.html
+- Ok. See [closed issue #3](https://github.com/onflapp/gs-desktop/issues/3) to use it. 
+- See also <http://www.shawcomputing.net/resources/next/software/bundled/bundled_1.html> to understand the place of this app in the NeXT echosystem.
 
 ### **Player**
 
@@ -111,8 +111,14 @@ Cf. http://www.shawcomputing.net/resources/next/software/bundled/bundled_1.html
 ### **WebBrowser** (chromium wrapped with services)
 
 - [x] Input inside the web page: ok
-- [x] Saving URLs: ok
+- [x] Saving URLs with files (*.url) or path by DND: great feature.
 - [x] Set preferences.
+
+
+### Sketch: a vector drawing app
+
+- [ ] It is unable to save a file and tends to freeze the whole desktop.
+- Must be replaced by Graphos.
 
 ---
 
@@ -120,15 +126,15 @@ Cf. http://www.shawcomputing.net/resources/next/software/bundled/bundled_1.html
 
 ### **Gorm**
 
-- [x] Open...
+- [x] ok. Tested with the famous 'Currency Converter' app tutorial.
 
 ### **ProjectCenter**
 
-- [x] Open...
+- [x] ok. Tested with the same example as above.
 
 ### **EmacsGS**
 
-- It is Emacs wrapped.
+- It is Emacs wrapped. Its mail mode is called with mail links. I would prefer  GNUMail... 
 
 ### **VimGS**
 
@@ -154,7 +160,7 @@ See also _Lookup_
 
 ### **HtopGS**
 
-- Htop wrapped
+- Htop wrapped. ok.
 
 ### **Lookup**
 
@@ -203,11 +209,11 @@ See also _Lookup_
 ### Devel: Gemas Editor
 
 - [x] Open...: ok
-- [ ] Highlight: todo...
+- [x] Highlight
 
 ### Draving: Graphos
 
-- [x]  New draw: ok
+- [x] New draw: ok
 - [x] Save/Open a *.gdr file: ok
 - [x] Open Graphos from the *.gdr file: ok
 
@@ -218,8 +224,7 @@ See also _Lookup_
 ### LUserNET
 
 - [x] Running
-- [ ] Connect a list/news server... at the French hierarchy.
-Maybe: http://news.gegeweb.org/
+- [ ] Useless without a news server at the French hierarchy. Maybe: <http://news.gegeweb.org/>?
 
 ### Games: NeXTGo is Go game
 
@@ -228,7 +233,7 @@ Maybe: http://news.gegeweb.org/
 
 ### PRICE: Image Manipulation Program
 
-- [x] Filters, Transform, save as tiff, jpg: ok
+- [x] Filters, Transform, save as tiff, jpg: ok. Maybe redoundant with ImageViewer which already provide a crop tool and a integrated way to convert images with the save Panel.
 
 ### StepSync
 
@@ -237,25 +242,32 @@ Maybe: http://news.gegeweb.org/
 
 ---
 
-# Planned
-
 ## Other games
 
-- [ ] A more moderne Go Game board: Ladder
-- [ ] Gomoku
-- [ ] GShisen
-- [ ] LapisPuzzle
-
+- [ ] A more modern Go Game board: Ladder as an alternative to NeXTGo ?
+- [x] Gomoku: a tic-tac-toe game.
+- [x] GShisen: a chinese tiles game.
+- [x] LapisPuzzle: a Tetris like game.
 
 ## More Apps
 
-- [ ] FlexiSheet
-- See also and adapt Roadmap at [apps-within-nextspace](https://github.com/pcardona34/apps-within-nextspace)...
-## To see and add: Documents
-
-- [ ] [NEXSTSTEP, OPENSTEP documents](http://www.shawcomputing.net/resources/next/documents.html)
+- [x] FlexiSheet: a Quanrix like spreadsheet: built and installed
+  - [ ] How to show the provided help (html files) from the help menu ?
+- [x] NoteBook: maybe redoundant with Affiche, but it allows to keep more organised notes.
+- [x] GSPdf: a good alternative to DocViewer, because it provides: zoom, anti-aliasing.
 
 ---
+
+## To see and add: Documents
+
+- [x] See: [NEXTSTSTEP, OPENSTEP documents](http://github.com/userLevel/next)
+
+---
+
+# Planned
+
+- [ ] OpenOutliner: see <https://github.com/davidchisnall/OpenOutliner> 
+- [ ] See also and adapt Roadmap from [apps-within-nextspace](https://github.com/pcardona34/apps-within-nextspace)...
 
 # Failed to build (until now)
 

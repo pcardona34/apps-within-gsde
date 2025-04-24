@@ -1,5 +1,7 @@
 #!/bin/bash
 
+. /Developer/Makefiles/GNUstep.sh
+
 _PWD=`pwd`
 
 if ! [ -f ${_PWD}/desc.sh ];then

@@ -2,7 +2,7 @@
 
 APPNAME="NoteBook"
 VERSION="0.3"
-SHORTNAME="notebook"
+SHORTNAME=""
 REPO="gnustep-notebook"
 METHOD="git"					# git | get
 HUB="https://github.com/pcardona34/"
